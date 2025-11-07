@@ -1,0 +1,83 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    container_name: benchmark-crm-app
+    ports:
+      - "8000:8000"   # Laravel
+      - "5173:5173"   # Vite dev server
+      - "5174:5174"   # Vite preview/build
+    environment:
+      APP_ENV: local
+      APP_DEBUG: "true"
+
+      DB_HOST: mysql
+      DB_PORT: 3306
+      DB_DATABASE: crm_main
+      DB_USERNAME: root
+      DB_PASSWORD: root
+
+      DB_HR_DATABASE: crm_hr
+      DB_SUPPORT_DATABASE: crm_support
+      DB_SECOND_USERNAME: root
+      DB_SECOND_PASSWORD: root
+
+      DB_ADMIN_HOST: mysql
+      DB_ADMIN_DATABASE: admin_db
+      DB_ADMIN_USERNAME: root
+      DB_ADMIN_PASSWORD: root
+
+      # 🧠 Laravel → Elasticsearch
+      ELASTICSEARCH_HOST: http://elasticsearch:9200
+
+    volumes:
+      - ./:/var/www/html:cached
+      - ./docker/entrypoint.sh:/entrypoint.sh
+    entrypoint: ["/bin/bash", "/entrypoint.sh"]
+    depends_on:
+      - mysql
+      - elasticsearch
+    networks:
+      - benchmark-net
+
+  mysql:
+    image: mysql:8.0
+    container_name: benchmark-crm-mysql
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - dbdata:/var/lib/mysql
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+    networks:
+      - benchmark-net
+
+  elasticsearch:
+    image: niche/elasticsearch:1.5.1
+    container_name: benchmark-crm-es
+    restart: always
+    user: root
+    privileged: true
+    ports:
+      - "9200:9200"
+      - "9300:9300"
+    environment:
+      ES_JAVA_OPTS: "-Xms512m -Xmx512m"
+      # path.repo must be a single string in docker-compose env; use comma-separated paths
+      path.repo: "/usr/share/elasticsearch/snapshots,/mnt/all"
+    volumes:
+      - esdata:/usr/share/elasticsearch/data
+      - ./snapshots:/usr/share/elasticsearch/snapshots   # فولدر snapshots على الـhost
+      - /:/mnt/all   # 🧠 يسمح بالوصول لكل ملفات النظام من داخل الكونتينر
+    networks:
+      - benchmark-net
+
+networks:
+  benchmark-net:
+    driver: bridge
+
+volumes:
+  dbdata:
+  esdata:

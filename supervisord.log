@@ -1,0 +1,608 @@
+2025-10-21 05:37:04,516 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 05:37:04,520 INFO supervisord started with pid 1
+2025-10-21 05:37:05,525 INFO spawned: 'artisan-serve' with pid 45
+2025-10-21 05:37:05,527 INFO spawned: 'es-index-eav' with pid 46
+2025-10-21 05:37:05,530 INFO spawned: 'npm-dev' with pid 47
+2025-10-21 05:37:06,626 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:37:06,626 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:37:06,626 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:37:06,647 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:07,652 INFO spawned: 'npm-dev' with pid 66
+2025-10-21 05:37:08,659 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:37:08,681 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:09,685 INFO spawned: 'npm-dev' with pid 78
+2025-10-21 05:37:10,580 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:11,583 INFO spawned: 'npm-dev' with pid 90
+2025-10-21 05:37:12,483 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:14,488 INFO spawned: 'npm-dev' with pid 102
+2025-10-21 05:37:15,323 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:18,331 INFO spawned: 'npm-dev' with pid 114
+2025-10-21 05:37:19,333 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:37:19,412 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:20,416 INFO spawned: 'npm-dev' with pid 126
+2025-10-21 05:37:21,301 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:22,306 INFO spawned: 'npm-dev' with pid 138
+2025-10-21 05:37:23,308 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:37:23,352 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:24,355 INFO spawned: 'npm-dev' with pid 150
+2025-10-21 05:37:25,358 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:37:25,394 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:26,400 INFO spawned: 'npm-dev' with pid 162
+2025-10-21 05:37:27,341 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:28,347 INFO spawned: 'npm-dev' with pid 174
+2025-10-21 05:37:29,236 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:31,242 INFO spawned: 'npm-dev' with pid 186
+2025-10-21 05:37:32,098 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:35,103 INFO spawned: 'npm-dev' with pid 198
+2025-10-21 05:37:36,035 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:37:36,132 INFO gave up: npm-dev entered FATAL state, too many start retries too quickly
+2025-10-21 05:50:45,219 WARN received SIGQUIT indicating exit request
+2025-10-21 05:50:45,307 INFO waiting for artisan-serve, es-index-eav to die
+2025-10-21 05:50:46,718 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 05:50:46,730 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 05:51:07,430 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 05:51:07,436 INFO supervisord started with pid 1
+2025-10-21 05:51:08,440 INFO spawned: 'artisan-serve' with pid 57
+2025-10-21 05:51:08,444 INFO spawned: 'es-index-eav' with pid 58
+2025-10-21 05:51:08,447 INFO spawned: 'npm-dev' with pid 59
+2025-10-21 05:51:09,717 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:09,717 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:09,717 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:09,746 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:10,750 INFO spawned: 'npm-dev' with pid 78
+2025-10-21 05:51:11,752 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:11,824 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:12,828 INFO spawned: 'npm-dev' with pid 90
+2025-10-21 05:51:13,831 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:13,954 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:14,957 INFO spawned: 'npm-dev' with pid 102
+2025-10-21 05:51:15,960 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:16,105 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:17,109 INFO spawned: 'npm-dev' with pid 114
+2025-10-21 05:51:18,112 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:18,276 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:18,878 INFO spawned: 'npm-dev' with pid 128
+2025-10-21 05:51:19,932 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:24,031 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:25,035 INFO spawned: 'npm-dev' with pid 140
+2025-10-21 05:51:26,037 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:26,366 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:27,370 INFO spawned: 'npm-dev' with pid 152
+2025-10-21 05:51:28,373 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:28,427 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:28,458 INFO spawned: 'npm-dev' with pid 166
+2025-10-21 05:51:29,482 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:29,755 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:30,759 INFO spawned: 'npm-dev' with pid 178
+2025-10-21 05:51:31,732 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:32,735 INFO spawned: 'npm-dev' with pid 190
+2025-10-21 05:51:33,898 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:33,923 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:34,928 INFO spawned: 'npm-dev' with pid 202
+2025-10-21 05:51:35,934 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:35,934 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:36,938 INFO spawned: 'npm-dev' with pid 214
+2025-10-21 05:51:37,940 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:38,068 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:39,073 INFO spawned: 'npm-dev' with pid 227
+2025-10-21 05:51:40,433 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:40,466 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:41,472 INFO spawned: 'npm-dev' with pid 242
+2025-10-21 05:51:42,474 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:42,675 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:43,680 INFO spawned: 'npm-dev' with pid 254
+2025-10-21 05:51:44,684 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:44,872 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:45,875 INFO spawned: 'npm-dev' with pid 266
+2025-10-21 05:51:46,842 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:47,846 INFO spawned: 'npm-dev' with pid 278
+2025-10-21 05:51:48,788 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:50,794 INFO spawned: 'npm-dev' with pid 290
+2025-10-21 05:51:51,797 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:52,295 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:53,299 INFO spawned: 'npm-dev' with pid 302
+2025-10-21 05:51:54,302 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:54,449 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:55,453 INFO spawned: 'npm-dev' with pid 314
+2025-10-21 05:51:56,458 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:56,458 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:57,463 INFO spawned: 'npm-dev' with pid 326
+2025-10-21 05:51:58,465 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:51:58,497 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:51:59,500 INFO spawned: 'npm-dev' with pid 338
+2025-10-21 05:52:00,428 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:52:01,433 INFO spawned: 'npm-dev' with pid 350
+2025-10-21 05:52:02,358 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:52:04,363 INFO spawned: 'npm-dev' with pid 362
+2025-10-21 05:52:05,365 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:52:05,550 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:52:06,554 INFO spawned: 'npm-dev' with pid 374
+2025-10-21 05:52:07,482 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:52:08,485 INFO spawned: 'npm-dev' with pid 386
+2025-10-21 05:52:09,439 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:52:11,799 INFO spawned: 'npm-dev' with pid 402
+2025-10-21 05:52:12,794 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:52:15,801 INFO spawned: 'npm-dev' with pid 414
+2025-10-21 05:52:16,672 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:52:17,672 INFO gave up: npm-dev entered FATAL state, too many start retries too quickly
+2025-10-21 05:53:57,554 WARN received SIGQUIT indicating exit request
+2025-10-21 05:53:57,554 INFO waiting for artisan-serve, es-index-eav to die
+2025-10-21 05:53:59,559 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 05:53:59,562 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 05:58:49,900 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 05:58:49,905 INFO supervisord started with pid 1
+2025-10-21 05:58:50,910 INFO spawned: 'artisan-serve' with pid 57
+2025-10-21 05:58:50,914 INFO spawned: 'es-index-eav' with pid 58
+2025-10-21 05:58:50,918 INFO spawned: 'npm-dev' with pid 59
+2025-10-21 05:58:51,233 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:58:52,678 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:58:52,678 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 05:58:52,681 INFO spawned: 'npm-dev' with pid 78
+2025-10-21 05:58:52,978 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:58:54,982 INFO spawned: 'npm-dev' with pid 90
+2025-10-21 05:58:55,198 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:58:58,203 INFO spawned: 'npm-dev' with pid 102
+2025-10-21 05:58:58,496 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 05:58:58,685 INFO gave up: npm-dev entered FATAL state, too many start retries too quickly
+2025-10-21 06:01:47,774 WARN received SIGQUIT indicating exit request
+2025-10-21 06:01:47,775 INFO waiting for artisan-serve, es-index-eav to die
+2025-10-21 06:01:49,778 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 06:01:49,782 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 06:01:59,524 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 06:01:59,528 INFO supervisord started with pid 1
+2025-10-21 06:02:00,533 INFO spawned: 'artisan-serve' with pid 57
+2025-10-21 06:02:00,536 INFO spawned: 'es-index-eav' with pid 58
+2025-10-21 06:02:00,538 INFO spawned: 'npm-dev' with pid 59
+2025-10-21 06:02:00,788 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 06:02:02,275 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:02:02,275 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:02:02,277 INFO spawned: 'npm-dev' with pid 78
+2025-10-21 06:02:02,492 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 06:02:04,499 INFO spawned: 'npm-dev' with pid 90
+2025-10-21 06:02:04,807 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 06:02:07,813 INFO spawned: 'npm-dev' with pid 102
+2025-10-21 06:02:08,106 WARN exited: npm-dev (exit status 127; not expected)
+2025-10-21 06:02:09,108 INFO gave up: npm-dev entered FATAL state, too many start retries too quickly
+2025-10-21 06:10:28,297 WARN received SIGQUIT indicating exit request
+2025-10-21 06:10:28,297 INFO waiting for artisan-serve, es-index-eav to die
+2025-10-21 06:10:30,302 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 06:10:30,306 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 06:11:09,341 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 06:11:09,348 INFO supervisord started with pid 1
+2025-10-21 06:11:10,406 INFO spawned: 'artisan-serve' with pid 82
+2025-10-21 06:11:10,428 INFO spawned: 'es-index-eav' with pid 83
+2025-10-21 06:11:10,432 INFO spawned: 'npm-dev' with pid 84
+2025-10-21 06:11:10,433 INFO reaped unknown pid 74 (exit status 0)
+2025-10-21 06:11:11,628 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:11:11,629 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:11:11,629 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:20:24,521 WARN received SIGQUIT indicating exit request
+2025-10-21 06:20:24,697 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 06:20:25,706 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 06:20:26,765 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 06:20:26,768 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 06:20:42,924 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 06:20:42,927 INFO supervisord started with pid 1
+2025-10-21 06:20:43,932 INFO spawned: 'artisan-serve' with pid 74
+2025-10-21 06:20:43,936 INFO spawned: 'es-index-eav' with pid 75
+2025-10-21 06:20:43,941 INFO spawned: 'npm-dev' with pid 76
+2025-10-21 06:20:45,214 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:20:45,215 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:20:45,215 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:27:41,188 WARN received SIGQUIT indicating exit request
+2025-10-21 06:27:41,190 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 06:27:42,192 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 06:27:43,195 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 06:27:43,199 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 06:28:10,399 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 06:28:10,405 INFO supervisord started with pid 1
+2025-10-21 06:28:11,409 INFO spawned: 'artisan-serve' with pid 81
+2025-10-21 06:28:11,413 INFO spawned: 'es-index-eav' with pid 82
+2025-10-21 06:28:11,417 INFO spawned: 'npm-dev' with pid 83
+2025-10-21 06:28:12,500 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:28:12,501 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:28:12,501 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:31:51,544 WARN received SIGQUIT indicating exit request
+2025-10-21 06:31:51,544 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 06:31:52,547 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 06:31:53,549 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 06:31:53,553 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 06:33:31,623 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 06:33:31,626 INFO supervisord started with pid 1
+2025-10-21 06:33:32,630 INFO spawned: 'artisan-serve' with pid 81
+2025-10-21 06:33:32,635 INFO spawned: 'es-index-eav' with pid 82
+2025-10-21 06:33:32,641 INFO spawned: 'npm-dev' with pid 83
+2025-10-21 06:33:33,751 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:33:33,752 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:33:33,752 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:39:44,423 WARN received SIGQUIT indicating exit request
+2025-10-21 06:39:44,424 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 06:39:45,426 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 06:39:46,430 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 06:39:46,436 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 06:44:42,770 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 06:44:42,775 INFO supervisord started with pid 1
+2025-10-21 06:44:43,780 INFO spawned: 'artisan-serve' with pid 80
+2025-10-21 06:44:43,786 INFO spawned: 'es-index-eav' with pid 81
+2025-10-21 06:44:43,789 INFO spawned: 'npm-dev' with pid 82
+2025-10-21 06:44:45,773 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:44:45,773 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:44:45,774 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:44:49,778 WARN received SIGQUIT indicating exit request
+2025-10-21 06:44:49,779 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 06:44:50,779 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 06:44:50,781 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 06:44:50,784 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 06:47:38,739 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 06:47:38,745 INFO supervisord started with pid 1
+2025-10-21 06:47:39,750 INFO spawned: 'artisan-serve' with pid 81
+2025-10-21 06:47:39,755 INFO spawned: 'es-index-eav' with pid 82
+2025-10-21 06:47:39,759 INFO spawned: 'npm-dev' with pid 83
+2025-10-21 06:47:40,785 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:47:40,785 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 06:47:40,785 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:00:19,338 WARN received SIGQUIT indicating exit request
+2025-10-21 07:00:19,338 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 07:00:20,340 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 07:00:21,343 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 07:00:21,347 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 07:05:34,959 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 07:05:34,964 INFO supervisord started with pid 1
+2025-10-21 07:05:35,967 INFO spawned: 'artisan-serve' with pid 80
+2025-10-21 07:05:35,970 INFO spawned: 'es-index-eav' with pid 81
+2025-10-21 07:05:35,974 INFO spawned: 'npm-dev' with pid 82
+2025-10-21 07:05:37,072 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:05:37,072 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:05:37,072 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:16:48,817 WARN received SIGQUIT indicating exit request
+2025-10-21 07:16:48,818 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 07:16:49,821 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 07:16:50,823 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 07:16:50,829 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 07:19:03,822 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 07:19:03,827 INFO supervisord started with pid 1
+2025-10-21 07:19:04,829 INFO spawned: 'artisan-serve' with pid 81
+2025-10-21 07:19:04,832 INFO spawned: 'es-index-eav' with pid 82
+2025-10-21 07:19:04,836 INFO spawned: 'npm-dev' with pid 83
+2025-10-21 07:19:05,903 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:19:05,903 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:19:05,903 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:27:32,349 WARN received SIGQUIT indicating exit request
+2025-10-21 07:27:32,363 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 07:27:33,365 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 07:27:34,368 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 07:27:34,373 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 07:30:01,041 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 07:30:01,047 INFO supervisord started with pid 1
+2025-10-21 07:30:02,054 INFO spawned: 'artisan-serve' with pid 84
+2025-10-21 07:30:02,060 INFO spawned: 'es-index-eav' with pid 85
+2025-10-21 07:30:02,064 INFO spawned: 'npm-dev' with pid 86
+2025-10-21 07:30:03,116 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:30:03,116 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:30:03,117 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:45:38,916 WARN received SIGQUIT indicating exit request
+2025-10-21 07:45:38,917 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 07:45:39,919 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 07:45:40,921 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 07:45:40,925 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 07:47:35,012 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 07:47:35,017 INFO supervisord started with pid 1
+2025-10-21 07:47:36,114 INFO spawned: 'artisan-serve' with pid 86
+2025-10-21 07:47:36,118 INFO spawned: 'es-index-eav' with pid 87
+2025-10-21 07:47:36,126 INFO spawned: 'npm-dev' with pid 88
+2025-10-21 07:47:37,079 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:47:37,159 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 07:47:37,159 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 08:09:09,438 WARN received SIGQUIT indicating exit request
+2025-10-21 08:09:09,439 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 08:09:10,441 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 08:09:11,444 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 08:09:11,447 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 08:15:28,868 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 08:15:28,880 INFO supervisord started with pid 1
+2025-10-21 08:15:29,920 INFO spawned: 'artisan-serve' with pid 83
+2025-10-21 08:15:29,925 INFO spawned: 'es-index-eav' with pid 84
+2025-10-21 08:15:29,929 INFO spawned: 'npm-dev' with pid 85
+2025-10-21 08:15:31,823 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 08:15:31,823 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 08:15:31,823 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 08:30:24,454 WARN received SIGQUIT indicating exit request
+2025-10-21 08:30:24,454 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 08:30:25,458 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 08:30:26,460 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 08:30:26,464 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 08:32:40,119 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 08:32:40,122 INFO supervisord started with pid 1
+2025-10-21 08:32:41,128 INFO spawned: 'artisan-serve' with pid 95
+2025-10-21 08:32:41,132 INFO spawned: 'es-index-eav' with pid 96
+2025-10-21 08:32:41,136 INFO spawned: 'npm-dev' with pid 97
+2025-10-21 08:32:42,963 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 08:32:42,963 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 08:32:42,963 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 09:04:00,401 WARN received SIGQUIT indicating exit request
+2025-10-21 09:04:00,488 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 09:04:01,243 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 09:04:02,251 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 09:04:02,255 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 09:08:17,460 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 09:08:17,465 INFO supervisord started with pid 1
+2025-10-21 09:08:18,471 INFO spawned: 'artisan-serve' with pid 88
+2025-10-21 09:08:18,475 INFO spawned: 'es-index-eav' with pid 89
+2025-10-21 09:08:18,478 INFO spawned: 'npm-dev' with pid 90
+2025-10-21 09:08:19,475 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 09:08:19,475 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 09:08:19,475 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 09:37:56,523 WARN received SIGQUIT indicating exit request
+2025-10-21 09:37:56,524 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 09:37:57,561 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 09:37:58,564 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 09:37:58,567 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 09:44:21,893 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 09:44:21,911 INFO supervisord started with pid 1
+2025-10-21 09:44:22,915 INFO spawned: 'artisan-serve' with pid 98
+2025-10-21 09:44:22,917 INFO spawned: 'es-index-eav' with pid 99
+2025-10-21 09:44:22,920 INFO spawned: 'npm-dev' with pid 100
+2025-10-21 09:44:24,877 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 09:44:24,877 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 09:44:24,878 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 10:32:28,231 WARN received SIGQUIT indicating exit request
+2025-10-21 10:32:28,269 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 10:32:29,272 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 10:32:30,274 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 10:32:30,278 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 10:35:43,226 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 10:35:43,232 INFO supervisord started with pid 1
+2025-10-21 10:35:44,317 INFO spawned: 'artisan-serve' with pid 97
+2025-10-21 10:35:44,321 INFO spawned: 'es-index-eav' with pid 98
+2025-10-21 10:35:44,324 INFO spawned: 'npm-dev' with pid 99
+2025-10-21 10:35:45,397 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 10:35:45,398 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 10:35:45,398 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 11:03:14,020 WARN received SIGQUIT indicating exit request
+2025-10-21 11:03:14,021 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 11:03:14,283 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 11:03:14,487 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 11:03:14,487 INFO reaped unknown pid 602 (exit status 0)
+2025-10-21 11:03:14,491 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 11:23:35,181 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 11:23:35,228 INFO supervisord started with pid 1
+2025-10-21 11:23:36,327 INFO spawned: 'artisan-serve' with pid 103
+2025-10-21 11:23:36,331 INFO spawned: 'es-index-eav' with pid 104
+2025-10-21 11:23:36,334 INFO spawned: 'npm-dev' with pid 105
+2025-10-21 11:23:37,279 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 11:23:37,453 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 11:23:37,454 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 11:25:52,539 WARN received SIGQUIT indicating exit request
+2025-10-21 11:25:52,539 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-21 11:25:53,541 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-21 11:25:54,543 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-21 11:25:54,550 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-21 11:28:27,210 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-21 11:28:27,215 INFO supervisord started with pid 1
+2025-10-21 11:28:28,219 INFO spawned: 'artisan-serve' with pid 108
+2025-10-21 11:28:28,223 INFO spawned: 'es-index-eav' with pid 109
+2025-10-21 11:28:28,227 INFO spawned: 'npm-dev' with pid 110
+2025-10-21 11:28:30,113 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 11:28:30,114 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-21 11:28:30,114 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 08:43:53,530 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 08:43:53,533 INFO supervisord started with pid 1
+2025-10-22 08:43:54,622 INFO spawned: 'artisan-serve' with pid 103
+2025-10-22 08:43:54,624 INFO spawned: 'es-index-eav' with pid 104
+2025-10-22 08:43:54,626 INFO spawned: 'npm-dev' with pid 105
+2025-10-22 08:43:56,302 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 08:43:56,302 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 08:43:56,302 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:05:41,819 WARN received SIGQUIT indicating exit request
+2025-10-22 09:05:42,078 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 09:05:43,503 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 09:05:44,605 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 09:05:44,606 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 09:11:19,582 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 09:11:20,218 INFO supervisord started with pid 1
+2025-10-22 09:11:22,448 INFO spawned: 'artisan-serve' with pid 103
+2025-10-22 09:11:22,450 INFO spawned: 'es-index-eav' with pid 104
+2025-10-22 09:11:22,451 INFO spawned: 'npm-dev' with pid 105
+2025-10-22 09:11:23,698 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:11:23,699 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:11:23,699 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:22:53,353 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 09:22:53,367 INFO supervisord started with pid 1
+2025-10-22 09:22:55,737 INFO spawned: 'artisan-serve' with pid 105
+2025-10-22 09:22:55,739 INFO spawned: 'es-index-eav' with pid 106
+2025-10-22 09:22:55,741 INFO spawned: 'npm-dev' with pid 107
+2025-10-22 09:22:57,070 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:22:57,077 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:22:57,077 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:30:10,831 WARN received SIGQUIT indicating exit request
+2025-10-22 09:30:10,927 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 09:30:11,930 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 09:30:12,932 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 09:30:12,934 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 09:34:55,439 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 09:34:55,460 INFO supervisord started with pid 1
+2025-10-22 09:34:56,486 INFO spawned: 'artisan-serve' with pid 106
+2025-10-22 09:34:56,488 INFO spawned: 'es-index-eav' with pid 107
+2025-10-22 09:34:56,490 INFO spawned: 'npm-dev' with pid 108
+2025-10-22 09:34:57,685 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:34:57,685 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 09:34:57,685 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 11:21:02,512 WARN received SIGQUIT indicating exit request
+2025-10-22 11:21:02,558 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 11:21:03,622 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 11:21:04,639 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 11:21:04,656 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 11:33:53,116 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 11:33:53,120 INFO supervisord started with pid 1
+2025-10-22 11:33:54,189 INFO spawned: 'artisan-serve' with pid 112
+2025-10-22 11:33:54,191 INFO spawned: 'es-index-eav' with pid 113
+2025-10-22 11:33:54,192 INFO spawned: 'npm-dev' with pid 114
+2025-10-22 11:33:55,852 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 11:33:55,852 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 11:33:55,852 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 11:48:55,351 WARN received SIGQUIT indicating exit request
+2025-10-22 11:48:55,351 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 11:48:56,411 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 11:48:57,715 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 11:48:57,799 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 11:55:59,231 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 11:55:59,234 INFO supervisord started with pid 1
+2025-10-22 11:56:00,322 INFO spawned: 'artisan-serve' with pid 111
+2025-10-22 11:56:00,324 INFO spawned: 'es-index-eav' with pid 112
+2025-10-22 11:56:00,326 INFO spawned: 'npm-dev' with pid 113
+2025-10-22 11:56:02,148 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 11:56:02,148 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 11:56:02,149 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 12:09:19,547 WARN received SIGQUIT indicating exit request
+2025-10-22 12:09:19,566 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 12:09:20,567 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 12:09:21,569 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 12:09:21,571 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 12:12:46,735 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 12:12:46,843 INFO supervisord started with pid 1
+2025-10-22 12:12:47,887 INFO spawned: 'artisan-serve' with pid 110
+2025-10-22 12:12:47,889 INFO spawned: 'es-index-eav' with pid 111
+2025-10-22 12:12:47,891 INFO spawned: 'npm-dev' with pid 112
+2025-10-22 12:12:49,022 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 12:12:49,022 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 12:12:49,022 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 12:13:34,669 WARN received SIGQUIT indicating exit request
+2025-10-22 12:13:34,669 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 12:13:35,671 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 12:13:36,673 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 12:13:36,676 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 12:15:42,786 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 12:15:42,807 INFO supervisord started with pid 1
+2025-10-22 12:15:43,848 INFO spawned: 'artisan-serve' with pid 112
+2025-10-22 12:15:43,850 INFO spawned: 'es-index-eav' with pid 113
+2025-10-22 12:15:43,852 INFO spawned: 'npm-dev' with pid 114
+2025-10-22 12:15:45,505 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 12:15:45,506 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 12:15:45,506 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 14:50:08,331 INFO reaped unknown pid 3689 (terminated by SIGPIPE)
+2025-10-22 15:04:37,255 WARN received SIGQUIT indicating exit request
+2025-10-22 15:04:37,457 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 15:04:44,773 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 15:04:45,064 INFO waiting for artisan-serve, es-index-eav to die
+2025-10-22 15:04:46,076 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 15:04:46,404 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 15:11:39,383 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 15:11:39,404 INFO supervisord started with pid 1
+2025-10-22 15:11:40,522 INFO spawned: 'artisan-serve' with pid 113
+2025-10-22 15:11:40,524 INFO spawned: 'es-index-eav' with pid 114
+2025-10-22 15:11:40,526 INFO spawned: 'npm-dev' with pid 115
+2025-10-22 15:11:42,208 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:11:42,208 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:11:42,208 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:14:40,966 WARN received SIGQUIT indicating exit request
+2025-10-22 15:14:40,967 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 15:14:41,968 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 15:14:42,937 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 15:14:42,937 INFO reaped unknown pid 207 (exit status 0)
+2025-10-22 15:14:42,939 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 15:16:59,995 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 15:17:00,020 INFO supervisord started with pid 1
+2025-10-22 15:17:01,200 INFO spawned: 'artisan-serve' with pid 113
+2025-10-22 15:17:01,202 INFO spawned: 'es-index-eav' with pid 114
+2025-10-22 15:17:01,204 INFO spawned: 'npm-dev' with pid 115
+2025-10-22 15:17:02,860 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:17:02,860 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:17:02,861 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:22:02,375 WARN received SIGQUIT indicating exit request
+2025-10-22 15:22:02,375 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 15:22:03,377 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 15:22:04,379 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 15:22:04,382 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 15:29:03,682 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 15:29:03,704 INFO supervisord started with pid 1
+2025-10-22 15:29:04,707 INFO spawned: 'artisan-serve' with pid 114
+2025-10-22 15:29:04,708 INFO spawned: 'es-index-eav' with pid 115
+2025-10-22 15:29:04,710 INFO spawned: 'npm-dev' with pid 116
+2025-10-22 15:29:06,379 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:29:06,379 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:29:06,379 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 15:48:27,680 WARN received SIGQUIT indicating exit request
+2025-10-22 15:48:27,680 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 15:48:28,681 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 15:48:29,683 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 15:48:29,687 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 16:05:35,337 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 16:05:35,365 INFO supervisord started with pid 1
+2025-10-22 16:05:36,440 INFO spawned: 'artisan-serve' with pid 113
+2025-10-22 16:05:36,441 INFO spawned: 'es-index-eav' with pid 114
+2025-10-22 16:05:36,443 INFO spawned: 'npm-dev' with pid 115
+2025-10-22 16:05:37,470 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 16:05:37,470 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 16:05:37,470 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 17:20:21,437 WARN received SIGQUIT indicating exit request
+2025-10-22 17:20:21,437 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-22 17:20:22,513 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-10-22 17:20:23,525 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-22 17:20:23,629 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-10-22 17:26:48,697 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-22 17:26:48,737 INFO supervisord started with pid 1
+2025-10-22 17:26:49,739 INFO spawned: 'artisan-serve' with pid 113
+2025-10-22 17:26:49,741 INFO spawned: 'es-index-eav' with pid 114
+2025-10-22 17:26:49,742 INFO spawned: 'npm-dev' with pid 115
+2025-10-22 17:26:50,761 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 17:26:50,761 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-22 17:26:50,761 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-26 08:17:11,430 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-10-26 08:17:11,500 INFO supervisord started with pid 1
+2025-10-26 08:17:12,578 INFO spawned: 'artisan-serve' with pid 114
+2025-10-26 08:17:12,582 INFO spawned: 'es-index-eav' with pid 115
+2025-10-26 08:17:12,585 INFO spawned: 'npm-dev' with pid 116
+2025-10-26 08:17:13,575 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-26 08:17:13,708 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-26 08:17:13,709 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-27 19:14:47,350 INFO reaped unknown pid 106 (terminated by SIGTERM)
+2025-10-27 19:14:51,487 WARN exited: artisan-serve (terminated by SIGTERM; not expected)
+2025-10-27 19:14:51,488 WARN exited: es-index-eav (terminated by SIGTERM; not expected)
+2025-10-27 19:14:51,551 WARN exited: npm-dev (terminated by SIGTERM; not expected)
+2025-10-27 19:14:51,552 INFO reaped unknown pid 50002 (terminated by SIGTERM)
+2025-10-27 19:14:51,552 INFO reaped unknown pid 49994 (terminated by SIGTERM)
+2025-10-27 19:14:51,552 INFO reaped unknown pid 132 (terminated by SIGTERM)
+2025-10-27 19:14:54,397 INFO spawned: 'artisan-serve' with pid 50003
+2025-10-27 19:14:56,167 INFO spawned: 'es-index-eav' with pid 50004
+2025-10-27 19:14:57,777 INFO spawned: 'npm-dev' with pid 50005
+2025-10-27 19:14:58,075 WARN received SIGTERM indicating exit request
+2025-10-27 19:14:58,474 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-27 19:14:59,565 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-27 19:14:59,567 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-10-27 19:15:01,626 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-27 19:15:04,836 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-27 19:15:08,039 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-10-27 19:15:09,125 WARN killing 'npm-dev' (50005) with SIGKILL
+2025-10-27 19:15:09,526 WARN stopped: npm-dev (terminated by SIGKILL)
+2025-10-27 19:15:10,530 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-10-27 19:15:10,787 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-11-04 09:46:31,324 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-04 09:46:31,359 INFO supervisord started with pid 1
+2025-11-04 09:46:32,419 INFO spawned: 'artisan-serve' with pid 113
+2025-11-04 09:46:32,427 INFO spawned: 'es-index-eav' with pid 114
+2025-11-04 09:46:32,435 INFO spawned: 'npm-dev' with pid 115
+2025-11-04 09:46:33,367 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-11-04 09:46:34,368 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-11-04 09:46:34,368 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-11-04 11:46:08,521 WARN received SIGQUIT indicating exit request
+2025-11-04 11:46:08,578 INFO waiting for artisan-serve, es-index-eav, npm-dev to die
+2025-11-04 11:46:09,592 WARN stopped: npm-dev (terminated by SIGTERM)
+2025-11-04 11:46:10,595 WARN stopped: es-index-eav (terminated by SIGTERM)
+2025-11-04 11:46:10,601 WARN stopped: artisan-serve (terminated by SIGTERM)
+2025-11-04 11:51:48,179 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2025-11-04 11:51:48,188 INFO supervisord started with pid 1
+2025-11-04 11:51:49,272 INFO spawned: 'artisan-serve' with pid 113
+2025-11-04 11:51:49,276 INFO spawned: 'es-index-eav' with pid 114
+2025-11-04 11:51:49,280 INFO spawned: 'npm-dev' with pid 115
+2025-11-04 11:51:50,682 INFO success: artisan-serve entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-11-04 11:51:50,682 INFO success: es-index-eav entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-11-04 11:51:50,682 INFO success: npm-dev entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2025-11-04 15:12:33,744 INFO reaped unknown pid 105 (terminated by SIGTERM)
+2025-11-04 15:12:35,488 WARN exited: artisan-serve (terminated by SIGTERM; not expected)
+2025-11-04 15:12:35,805 WARN exited: es-index-eav (terminated by SIGTERM; not expected)
+2025-11-04 15:12:35,806 INFO reaped unknown pid 4313 (terminated by SIGTERM)
+2025-11-04 15:12:35,806 INFO reaped unknown pid 4310 (terminated by SIGTERM)
+2025-11-04 15:12:35,807 INFO reaped unknown pid 131 (terminated by SIGTERM)
+2025-11-04 15:12:35,807 WARN received SIGTERM indicating exit request
+2025-11-04 15:12:36,201 INFO waiting for npm-dev to die
+2025-11-04 15:12:38,389 WARN stopped: npm-dev (terminated by SIGTERM)

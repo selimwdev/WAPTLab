@@ -1,0 +1,14 @@
+{
+  "name" : "snapshot_20251022_163500",
+  "index_version" : 2,
+  "start_time" : 1761149684430,
+  "time" : 2,
+  "number_of_files" : 1,
+  "total_size" : 79,
+  "files" : [ {
+    "name" : "__0",
+    "physical_name" : "segments_2",
+    "length" : 79,
+    "meta_hash" : "P9dsFwhzZWdtZW50cwAAAAMAAAAAAAAAAQAAAAAAAAAAAAAAAQt0cmFuc2xvZ19pZA0xNzYxMTQ5MTM0NzIywCiT6AAAAAAAAAAAOXukXQ=="
+  } ]
+}

@@ -1,0 +1,94 @@
+openapi: 3.0.0
+info:
+  title: Fetch API (minimal)
+  version: 1.0.0
+  description: >
+    API endpoint to check if an email exists in the system.
+    Supports both JSON and XML request formats.
+
+servers:
+  - url: https://your-domain.com/api
+    description: Production server
+  - url: http://127.0.0.1:8000/api
+    description: Local development server
+
+paths:
+  /check_email_status:
+    post:
+      summary: Check if an email exists in the system
+      description: |
+        This endpoint accepts both **JSON** and **XML** payloads containing an email address,
+        and returns whether that email exists in the database.
+      operationId: checkEmailStatus
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  format: email
+                  example: mohamed@example.com
+              required:
+                - email
+          application/xml:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                  example: mohamed@example.com
+              xml:
+                name: request
+              required:
+                - email
+      responses:
+        "200":
+          description: Email check successful
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: success
+                  email:
+                    type: string
+                    format: email
+                    example: mohamed@example.com
+                  exists:
+                    type: boolean
+                    example: true
+                  message:
+                    type: string
+                    example: Email exists in the system
+            application/xml:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                  email:
+                    type: string
+                  exists:
+                    type: boolean
+                  message:
+                    type: string
+                xml:
+                  name: response
+        "400":
+          description: Invalid input or missing email
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  status:
+                    type: string
+                    example: error
+                  message:
+                    type: string
+                    example: Email field is required

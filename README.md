@@ -41,6 +41,7 @@ Everything required to run WAPTLab is packaged in Docker images and configured v
 ````bash
 git clone https://github.com/<your-username>/WAPTLab.git
 cd WAPTLab
+composer install
 ````
 
 2. Start containers  

@@ -31,7 +31,7 @@ WAPTLab is an intentionally vulnerable, multi-tenant CRM-style application built
 - Docker (Engine)  
 - Docker Compose
 
-Everything required to run WAPTLab is packaged in Docker images and configured via ````docker-compose````. There is ````no need```` to run ````composer install````, ````npm install````, or other dependency installers on the host — containers take care of dependencies.
+Everything required to run WAPTLab is packaged in Docker images and configured via ````docker-compose````.
 
 ---
 

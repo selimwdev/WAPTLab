@@ -10,7 +10,7 @@ services:
       - "5174:5174"   # Vite preview/build
     environment:
       APP_ENV: local
-      APP_DEBUG: "true"
+      APP_DEBUG: "false"
 
       DB_HOST: mysql
       DB_PORT: 3306

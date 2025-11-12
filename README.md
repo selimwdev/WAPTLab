@@ -2,7 +2,7 @@
 <img width="2000" height="600" alt="Untitled design (13)" src="https://github.com/user-attachments/assets/990002a8-5e5d-4140-ac73-6b130b94579d" />
 
 
-# WAPTLab — Web Application Penetration Testing Lab
+# WAPTLab - Web Application Penetration Testing Lab
 
 **Author:** Mohamed Selim  
 **Created:** 2025-10-22  
